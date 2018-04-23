@@ -1,0 +1,27 @@
+body{
+  background-image: url('../image/bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  margin-top: 100px;
+  margin-left: 140px;
+}
+
+.container > h1, .container > h4{
+  text-shadow: 1px 1px 15px #ffcccc;
+}
+
+.box{
+  height: 500px;
+  width: 510px;
+  background-color: rgb(255, 204, 153, .3);
+  padding: 30px;
+  /*border-radius: 350px;*/
+}
+
+footer{
+  height: 50px;
+  text-align: center;
+}
