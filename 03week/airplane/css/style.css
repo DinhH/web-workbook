@@ -68,7 +68,6 @@ body{
   height: 400px;
   border-radius: 8px;
   box-sizing: border-box;
-
 }
 
 .icons {
@@ -86,8 +85,6 @@ body{
   display: inline-block;
   padding: 0 3.645em;
   float: left;
-  /*box-sizing: border-box;*/
-
 }
 
 .main-form{

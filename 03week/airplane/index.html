@@ -34,38 +34,37 @@
           </ul>
         </div>
         <form class="travel-form" action="index.html" method="get">
-        <div class="destination">
-          <input type="text" name="depart" placeholder="Depart" class="formField">
-          <input type="text" name="arrive" placeholder="Arive" class="formField">
-          <input type="date" name="depart-Date" value="Depart" class="formField">
-          <input type="date" name="arrive-Date" value="Arrive" class="formField">
-        </div>
-        <div class="passenger-info">
-          <div class="quantity">
-            <label for="pass-qty">Passengers</label>
-            <select name="pass-qty" class="formField">
-              <option value="1" label="1" selected></option>
-              <option value="2" label="2"></option>
-              <option value="3" label="3"></option>
-              <option value="4" label="4"></option>
-              <option value="5" label="5"></option>
-              <option value="6" label="6"></option>
-            </select>
-
+          <div class="destination">
+            <input type="text" name="depart" placeholder="Depart" class="formField">
+            <input type="text" name="arrive" placeholder="Arive" class="formField">
+            <input type="date" name="depart-Date" value="Depart" class="formField">
+            <input type="date" name="arrive-Date" value="Arrive" class="formField">
           </div>
-          <div class="radio-bttns">
-            <form action="">
-              <input type="radio" checked="checked" name="direction" value="Return">
-              <label for="direction">Return</label>
-              <input type="radio" name="direction" value="One Way">
-              <label for="direction">One Way</label>
-            </form>
-          </div>
+          <div class="passenger-info">
+            <div class="quantity">
+              <label for="pass-qty">Passengers</label>
+              <select name="pass-qty" class="formField">
+                <option value="1" label="1" selected></option>
+                <option value="2" label="2"></option>
+                <option value="3" label="3"></option>
+                <option value="4" label="4"></option>
+                <option value="5" label="5"></option>
+                <option value="6" label="6"></option>
+              </select>
 
-        </div>
-        <button type="submit" name="Submit" class="bttn-Submit">Search Flights</button>
+            </div>
+            <div class="radio-bttns">
+              <form action="">
+                <input type="radio" checked="checked" name="direction" value="Return">
+                <label for="direction">Return</label>
+                <input type="radio" name="direction" value="One Way">
+                <label for="direction">One Way</label>
+              </form>
+            </div>
+          </div>
+          <button type="submit" name="Submit" class="bttn-Submit">Search Flights</button>
         </form>
-        </main>
-      </div>
+      </main>
+    </div>
   </body>
 </html>
