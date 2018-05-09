@@ -73,44 +73,42 @@ footer{
   font-size: 1.5em;
 }
 
-.links p{
+.links li{
   text-decoration: none;
   padding: 5% 0;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
+  list-style-type: none;
 }
 
-  @media(min-width:768px) and (max-width:991px){
-    main{
-      justify-content: flex-start;
-    }
-
-    .container{
-      width: 100%
-    }
-
-    .stories{
-      display: none;
-    }
-
+@media(min-width:768px) and (max-width:991px){
+  main{
+    justify-content: flex-start;
+  }
+  .container{
+    width: 100%
   }
 
-  @media(max-width:767px){
-    main{
-      display: block;
+  .stories{
+    display: none;
+  }
 
-    }
+}
 
-    .container{
-      width: 100%
-    }
+@media(max-width:767px){
+  main{
+    display: block;
 
-    .stories{
-      display: none;
-    }
+  }
+  .container{
+    width: 100%
+  }
 
-    footer{
-      display: flex;
-    }
+  .stories{
+    display: none;
+  }
 
+  footer{
+    display: flex;
+  }
 }
