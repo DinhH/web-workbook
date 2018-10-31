@@ -21,10 +21,9 @@ body{
   background: #E6E6E6;
   display: flex;
   height: 324px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   box-sizing: border-box;
   margin: 20px 0px;
-
 }
 
 .column{
